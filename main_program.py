@@ -11,7 +11,7 @@ screen = pg.display.set_mode((scr_wid, scr_hgt))
 pg.display.set_caption("Karlo's struggle 1")
 title_icon = pg.image.load("yellow.png")
 pg.display.set_icon(title_icon)
-
+# This is a random line:)
 vol_bgm = 0.05
 vol_click = 0.15
 vol_Kill_bot = 0.35
