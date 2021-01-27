@@ -495,8 +495,8 @@ def Author_page():
     common_txt.draw_info('Test: Jiamin', pos = [300, 350], size = 30)
     common_txt.draw_info('Thanks for paying attention to this game, if having any idea or suggestion, ', \
                         pos = [200, 400], size = 20)
-    common_txt.draw_info('welcome to contact us by the email below:', pos = [200, 430], size = 20)
-    common_txt.draw_info('jiaming2001@qq.com', pos = [300, 480], size = 20)
+    common_txt.draw_info('contact us through the email:', pos = [200, 430], size = 20)
+    common_txt.draw_info('jiaming2001_new@outlook.com', pos = [300, 480], size = 20)
     common_txt.draw_info('Main menu (M)', pos = [300, 550], size = 30)
     for event in pg.event.get():
         if event.type == pg.QUIT:
