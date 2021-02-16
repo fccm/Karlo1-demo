@@ -129,22 +129,22 @@ class Me(object):
                 pg.quit()
                 exit()
             if event.type == pg.KEYDOWN:
-                if event.key == pg.K_UP:
+                if event.key == pg.K_w or event.key == pg.K_UP:
                     self.W = True
-                if event.key == pg.K_LEFT:
+                if event.key == pg.K_a or event.key == pg.K_LEFT:
                     self.A = True
-                if event.key == pg.K_DOWN:
+                if event.key == pg.K_s or event.key == pg.K_DOWN:
                     self.S = True
-                if event.key == pg.K_RIGHT:
+                if event.key == pg.K_d or event.key == pg.K_RIGHT:
                     self.D = True
             elif event.type == pg.KEYUP:
-                if event.key == pg.K_UP:
+                if event.key == pg.K_w or event.key == pg.K_UP:
                     self.W = False
-                if event.key == pg.K_LEFT:
+                if event.key == pg.K_a or event.key == pg.K_LEFT:
                     self.A = False
-                if event.key == pg.K_DOWN:
+                if event.key == pg.K_s or event.key == pg.K_DOWN:
                     self.S = False
-                if event.key == pg.K_RIGHT:
+                if event.key == pg.K_d or event.key == pg.K_RIGHT:
                     self.D = False
         if self.W == True:
             self.Uv = self.Uv + self.a
